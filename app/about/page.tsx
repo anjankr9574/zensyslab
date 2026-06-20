@@ -97,13 +97,13 @@ export default function AboutPage() {
             title="The principles behind every engagement"
             description="These are the commitments that shape how we design, build, and support your software."
           />
-          <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-12 flex flex-wrap justify-center gap-6">
             {PILLARS.map((pillar) => {
               const Icon = pillar.icon
               return (
                 <div
                   key={pillar.title}
-                  className="rounded-3xl bg-background p-7 shadow-soft ring-1 ring-border/60"
+                  className="w-full max-w-sm rounded-3xl bg-background p-7 shadow-soft ring-1 ring-border/60 md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)]"
                 >
                   <span className="inline-flex size-11 items-center justify-center rounded-2xl bg-accent/10 text-accent">
                     <Icon className="size-5" aria-hidden="true" />

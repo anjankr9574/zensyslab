@@ -44,7 +44,8 @@ export function ApproachSection() {
             />
             <ButtonLink
               href="/about"
-              className="mt-8 rounded-full bg-primary hover:bg-secondary"
+              size="lg"
+              className="mt-8 px-7 rounded-full bg-primary hover:bg-secondary"
             >
               More about us
               <ArrowRight className="size-4" aria-hidden="true" />

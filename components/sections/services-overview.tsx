@@ -13,14 +13,14 @@ export function ServicesOverview() {
           description="From first line of code to long-term support, we partner with you across the full digital lifecycle."
         />
 
-        <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-14 flex flex-wrap justify-center gap-6">
           {SERVICES.map((service) => {
             const Icon = service.icon
             return (
               <Link
                 key={service.slug}
                 href={`/services#${service.slug}`}
-                className="group glass-card flex flex-col rounded-3xl border border-border/60 p-7 shadow-sm shadow-primary/5 transition-all hover:-translate-y-1 hover:border-accent/40 hover:shadow-lg hover:shadow-primary/10 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring"
+                className="group glass-card flex w-full max-w-sm flex-col rounded-3xl border border-border/60 p-7 shadow-sm shadow-primary/5 transition-all hover:-translate-y-1 hover:border-accent/40 hover:shadow-lg hover:shadow-primary/10 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)]"
               >
                 <span className="flex size-12 items-center justify-center rounded-2xl bg-primary/5 text-primary transition-colors group-hover:bg-accent group-hover:text-accent-foreground">
                   <Icon className="size-6" aria-hidden="true" />

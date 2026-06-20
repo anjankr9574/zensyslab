@@ -33,7 +33,7 @@ export function CtaBanner({
               <ButtonLink
                 href="/quote"
                 size="lg"
-                className="rounded-full bg-surface px-7 text-primary hover:bg-surface/90"
+                className="rounded-full bg-surface px-7 text-primary hover:bg-transparent hover:border-primary-foreground/30 hover:text-primary-foreground"
               >
                 Get a Quote
                 <ArrowRight className="size-4" aria-hidden="true" />

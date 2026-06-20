@@ -15,7 +15,7 @@ export const NAV_LINKS = [
   { label: 'Portfolio', href: '/portfolio' },
   { label: 'Case Studies', href: '/case-studies' },
   { label: 'Internship', href: '/internship' },
-  { label: 'Hackathons', href: '/hackathons' },
+  { label: 'Hackathons', href: '/hackathon' },
   { label: 'Careers', href: '/careers' },
   { label: 'Blog', href: '/blog' },
   { label: 'Contact', href: '/contact' },
@@ -34,7 +34,7 @@ export const PRIMARY_NAV = [
 
 export const MORE_NAV = [
   { label: 'Case Studies', href: '/case-studies' },
-  { label: 'Hackathons', href: '/hackathons' },
+  { label: 'Hackathons', href: '/hackathon' },
   { label: 'Careers', href: '/careers' },
   { label: 'Blog', href: '/blog' },
 ] as const
